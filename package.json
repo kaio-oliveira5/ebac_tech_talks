@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,5 +13,8 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.16.0",
     "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6"
   }
 }
